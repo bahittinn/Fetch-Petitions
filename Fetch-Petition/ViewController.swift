@@ -35,7 +35,6 @@ class ViewController: UITableViewController {
         let decoder = JSONDecoder()
         let jsonPetitions = try? decoder.decode(Petitions.self, from: json)
         self.petitions = jsonPetitions!.results
-        print("deneme: \(self.petitions[0])")
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
@@ -51,6 +50,9 @@ class ViewController: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetailViewController()
+        vc.detailItem = petitions[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }

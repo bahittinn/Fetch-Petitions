@@ -15,6 +15,7 @@
 		641D37702A7C33C500240BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641D376E2A7C33C500240BFA /* LaunchScreen.storyboard */; };
 		64A7E9632A7C3794001CD613 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7E9622A7C3794001CD613 /* Petition.swift */; };
 		64A7E9652A7C37F1001CD613 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7E9642A7C37F1001CD613 /* Petitions.swift */; };
+		64E3CAA12A7D151300FA60C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3CAA02A7D151300FA60C1 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		641D37712A7C33C500240BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64A7E9622A7C3794001CD613 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		64A7E9642A7C37F1001CD613 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		64E3CAA02A7D151300FA60C1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			children = (
 				641D37632A7C33C300240BFA /* AppDelegate.swift */,
 				641D37652A7C33C300240BFA /* SceneDelegate.swift */,
-				641D37672A7C33C300240BFA /* ViewController.swift */,
 				641D37692A7C33C300240BFA /* Main.storyboard */,
 				641D376C2A7C33C500240BFA /* Assets.xcassets */,
 				641D376E2A7C33C500240BFA /* LaunchScreen.storyboard */,
 				641D37712A7C33C500240BFA /* Info.plist */,
 				64A7E9622A7C3794001CD613 /* Petition.swift */,
 				64A7E9642A7C37F1001CD613 /* Petitions.swift */,
+				641D37672A7C33C300240BFA /* ViewController.swift */,
+				64E3CAA02A7D151300FA60C1 /* DetailViewController.swift */,
 			);
 			path = "Fetch-Petition";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				641D37682A7C33C300240BFA /* ViewController.swift in Sources */,
 				64A7E9632A7C3794001CD613 /* Petition.swift in Sources */,
 				641D37642A7C33C300240BFA /* AppDelegate.swift in Sources */,
+				64E3CAA12A7D151300FA60C1 /* DetailViewController.swift in Sources */,
 				641D37662A7C33C300240BFA /* SceneDelegate.swift in Sources */,
 				64A7E9652A7C37F1001CD613 /* Petitions.swift in Sources */,
 			);
